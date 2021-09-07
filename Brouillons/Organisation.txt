@@ -1,0 +1,19 @@
+Toute page :
+  Header
+    Page d'acceuil
+    Products
+    Cart
+
+PAGES
+  Page d'acceuil
+  Produit
+  Cart
+
+
+Composants
+
+  Category
+  Product
+
+  Cart
+
