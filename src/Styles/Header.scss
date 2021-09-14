@@ -1,0 +1,45 @@
+.HeaderWrapper {
+
+  background-color: white;
+
+  box-shadow: 0px 0px 6px 0px #000;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 3rem;
+  width: 93vw;
+  margin: 0 auto;
+
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+}
+
+.NavItem::before {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.NavItem:hover {
+  font-weight: 700;
+}
+
+.NavItem-current {
+  font-weight: 700;
+}

@@ -1,0 +1,9 @@
+# HEADER
+
+# TODO: Faire que les products sur la page arrive l'un après l'autre, en défilant. (Au moins sur la page d'accueil, et chaque ligne en meme temps)
+# TODO: Faire que le product gagne une ombre et augmente en taille au moment de le hover, "il vient vers nous".
+# TODO: Au moment de hover ou sur la page actuelle, le nom de la catégorie est en gras et donc un peu plus large, et ça fait qu'il y a moins d'espace à droite qu'à gauche.
+
+# REFACTO
+# TODO: Externaliser la fonction pour fetch, et faire qu'elle prenne une quantity en paramètre (pour quand faut slice le nombre d'éléments), et l'utiliser pour Home comme pour Category
+# TODO: Dans Store/Reducer.js, utiliser switch au lieu de if else if else ?

@@ -1,4 +1,4 @@
-Toute page :
+Toute page
   Header
     Page d'acceuil
     Products
@@ -9,6 +9,8 @@ PAGES
   Produit
   Cart
 
+Faire une requete pour une Category de product au moment d'afficher la page de la catégorie
+  Ce qui veut dire fetch au moment de créer le composant (1)
 
 Composants
 
@@ -17,3 +19,8 @@ Composants
 
   Cart
 
+
+
+QUESTIONS :
+
+(1) Comment je fais pour avoir plusieurs fois la meme route

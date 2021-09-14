@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+// MARK: PRODUCTS
+
+.HomePage {
+  width: 90vw;
+  margin: 108px auto 0;
+}
+
+.HomeCategory {
+  margin: 0 0 60px;
+}
+
+.HomeCategory__Name {
+  margin: 0 0 30px;
+
+  text-transform: uppercase;
+}
+
+.RowProducts {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0px 10px 30px;
+}
+
+.RowProducts .Product {
+  margin: 0;
+}
